@@ -5,17 +5,34 @@
     <title>Contactos</title>
   </head>
   <body>
-    <h3>Telefone:</h3>
-    <li>253457896</li>
-    <h3>Telemóvel:</h3>
-    <li>916554798</li>
-    <h3>Morada:</h3>
-    <li>Rua das Estreitas, Braga, Barcelos</li>
-    <br>
-    <form class="" action="Index.html" method="post">
-        <label for="">O seu Nome:</label>
-        <input type="text" name="" id="">
-        <input type="submit" name="" id="">
+    <h2>Contactos</h2>
+    <hr>
+    <table>
+      <tr>
+        <td><h4>Telemóvel:</h4></td>
+        <td>916554798</td>        
+      </tr>
+      <tr>
+        <td><h4>Telefone:</h4></td>
+        <td>253457896</td>
+      </tr>
+      <tr>
+       <td><h4>Morada:</h4></td>
+       <td>Rua das Estreitas, Braga, Barcelos</td>
+      </tr>
+    </table>
+    <hr>
+
+    <form class="" action="mailto:zaaphyrus@gmail.com" method="post" enctype="text/plain">
+        <label for="">Nome : </label>
+        <input type="text" name="O seu nome " id=""><br>
+        <br>
+        <label for="">E-mail:</label>
+        <input type="email" name="O seu email " id=""><br>
+        <br>
+        <label for="">A sua mensagem:</label><br>
+        <textarea name="A sua mensagem " id="" cols="27" rows="10"></textarea>
+        <input type="submit" value="Enviar">
     </form>
   </body>
 </html>
